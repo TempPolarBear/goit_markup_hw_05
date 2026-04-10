@@ -458,16 +458,14 @@ button {
   align-items: baseline;
 }
 
+.footer-left-side {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
 .footer-logo-wrap {
-  margin-right: 120px;
-}
-
-.footer-social-wrap {
-  margin-right: 80px;
-}
-
-.footer-subscribe-wrap {
-  margin-left: auto;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -481,6 +479,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer-social-wrap {
+  min-width: 208px;
 }
 
 .footer-social-text,
@@ -526,6 +528,10 @@ button {
 /* =========================
    FOOTER SUBSCRIBE
 ========================= */
+
+.footer-subscribe-wrap {
+  margin-left: auto;
+}
 
 .footer-subscribe-form {
   display: flex;
