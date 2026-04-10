@@ -462,6 +462,14 @@ button {
   margin-right: 120px;
 }
 
+.footer-social-wrap {
+  margin-right: 80px;
+}
+
+.footer-subscribe-wrap {
+  margin-left: auto;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -473,10 +481,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.footer-social-wrap {
-  margin-right: 80px;
 }
 
 .footer-social-text,
@@ -519,9 +523,9 @@ button {
   fill: #f4f4fd;
 }
 
-.footer-subscribe-wrap {
-  margin-left: auto;
-}
+/* =========================
+   FOOTER SUBSCRIBE
+========================= */
 
 .footer-subscribe-form {
   display: flex;
@@ -579,6 +583,7 @@ button {
 .footer-subscribe-icon {
   fill: #ffffff;
 }
+
 /* =========================
    BACKDROP & MODAL
 ========================= */
