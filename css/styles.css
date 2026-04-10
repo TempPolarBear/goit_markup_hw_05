@@ -473,6 +473,10 @@ button {
   margin-bottom: 16px;
 }
 
+.footer-logo-part {
+  color: #f4f4fd;
+}
+
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
@@ -536,6 +540,10 @@ button {
 .footer-subscribe-form {
   display: flex;
   gap: 24px;
+}
+
+.footer-subscribe-label {
+  display: block;
 }
 
 .footer-subscribe-input {
